@@ -1,0 +1,13 @@
+Maßnahmen zur Absicherung von privaten und kleinen Unternehmensnetzwerken
+
+- Besondere Gefahren / Schutzziele
+- VPNs
+- VLANs
+- Datenschutz
+- Policies
+- Jugendschutz
+- Mitarbeiter / Familienmitglieder
+- Koordination
+- rechtliche Aspekte (Verantwortlichkeiten, Haftbarkeit...)
+- DMZ
+
