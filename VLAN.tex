@@ -1,3 +1,22 @@
 \section*{VLAN}
 
+VLANs = Virtuelle Netze \\
 \cite[S.167-169]{zisler2018computer} \\
+\cite{bsiLogSeg}\\
+
+VLANs dienen der logischen Segmentierung von Netzen. Es sind logische Teilnetze, die an Switches gebildet werden. Es können Gruppen gebildet werden, ohne dass in die physische Vernetzung eingegriffen wird.
+Gründe für den VLAN Einsatz nach \cite[S.167]{zisler2018computer}:
+\begin{itemize}
+  \item Eindämmung von Broadcast durch mehrere Broadcast Domänen
+  \item Abbildung der betrieblichen Organisationsstruktur (Abteilungen)
+  \item Einteilung des Netzes nach Anwendung 
+\end{itemize}
+
+
+
+Arten von VLANs: 
+\begin{enumerate}
+  \item Statische VLANs = Portbasierte VLANs: Switch-Ports werden fest einem VLAN zugeordnet. Port kann nur einem VLAN zugeordnet werden. 
+  \item Dynamisches VLAN = Paketbasiertes VLAN, auch tagged VLAN: Ein Port kann mehreren VLANs angehören. Pakete werden gekennzeichnet welchem VLAN sie angehören. Achtung hohe Manipulationsgefahr. 
+\end{enumerate}
+
