@@ -1,0 +1,47 @@
+\documentclass[11pt, a4paper, twoside]{book}
+
+\usepackage{palatino, url}
+\usepackage[ngermanb]{babel}
+\usepackage[utf8]{inputenc}
+\setlength{\parindent}{0cm}
+
+\usepackage{amsfonts}	% für mathematische Symbole wie Menge der nat. Zahlen
+\usepackage{amsmath}
+\usepackage{textcomp}	% für \textmu also das Mü- bzw. Mikro-Symbol
+\usepackage{makeidx}	% für ein "schöneres" Stichwortverzeichnis
+\makeindex				% erzeugt das Stichwortvereichnis, blendet es jedoch nicht hier ein. Dafür am Ende den entspr. Code verwenden.
+
+\bibliographystyle{plain}
+
+\begin{document}
+	
+	%%% Title declaration begin %%%
+	
+	\title{Notizen zu \\ 01909 - Seminar IT-Sicherheit \\ Maßnahmen zur Absicherung von privaten und kleinen Unternehmensnetzwerken}
+	\author{B.Sc. Markus Alpers, 6872530 \\ Kerstin Lapp, 515200}
+	\date{\today}
+	
+	\maketitle
+	
+	%%% Title declaration end %%%
+	
+	\tableofcontents
+	
+	%%% Chapters %%%
+	
+	\include{Schutzziele}
+	\include{VLAN}
+	\include{VPN}
+	\include{DMZ}
+	\include{Sicherheitsleitlinie}
+	\include{Datenschutz}
+	\include{Mitarbeiter}
+	
+	%%% Appendices %%%
+	
+	\renewcommand{\indexname}{Stichwortverzeichnis}		% Legt den Titel des Stichwortverzeichnisses fest.
+	\addcontentsline{toc}{chapter}{Stichwortverzeichnis}
+	\printindex
+	\bibliography{lit}
+
+\end{document}
