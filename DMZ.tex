@@ -1,0 +1,13 @@
+\section*{Firewall/DMZ}
+
+Kurs 1866 KE4  S199: 
+
+Screened Subnet/DMZ: Eigenes Teilnetz zwischen Intranet und Internet, welches an beiden Eden durch Paketfilter geschützt wird. \\
+Architektur: Internet-Router-ALG-Rechner-Router-Intranet.\\
+Router auf Seite des Internet lässt nur Pakete zum Rechner innerhalb der DMZ durch. Router zum Intranet lässt nur Pakete vom Rechner aus der DMZ durch. Die andere Richtung analog. Angreifer muss also mehrere Systeme angreifen ehe er das Intranet erreichen kann. ALG filtert zusätzlich Kommunikation auf der Anwendungsebene. Bei erhöhtem Arbeitsaufkommen sind verschiedene ALG für verschiedene Anwendungen möglich (ftp, telnet, http). Öffentliche Webserver sollten sich auch in der DMZ befinden.\\
+DMZ kann auch mit einem Router mit 3 Anschlüssen verwirklicht werden: \begin{enumerate}
+  \item Internet
+  \item DMZ
+  \item Intranet
+\end{enumerate}
+mit entsprechend konfiguriertem Paketfilter.
