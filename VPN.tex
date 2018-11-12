@@ -26,7 +26,7 @@
 					 \end{itemize}	
    \item Anforderungen an die VPN Sicherheit: (Kapitel 2)
 					\begin{itemize}
-					\item Datenvertraulichkeit => Verschlüsselungsverfahren
+					\item Datenvertraulichkeit $\rightarrow$ Verschlüsselungsverfahren
 					\item Schlüsselmanagement: Schlüselerzeugung, Integritätsprüfung, Authentifizierung, Schlüsselverteilung.
 					\item Paketauthentifizierung: Jedes Paket muss Authentifiziert werden, dass es tatsächlich vom Absender stammt. 
 					\item Datenintigrität: Wurde Paket während des Transports verändert?
@@ -35,6 +35,13 @@
 					\item Schutz vor Sabotage
 					\item Schutz vor unerlaubtem Eindringen
 					\end{itemize}
-  \item Sicherheitstechnologien: (Kapitel 4)					
+  \item Sicherheitstechnologien: (Kapitel 4): 
+  					\begin{itemize}
+  					\item Datenanalyse(Allgemein zur Datensicherheit, nicht nur VPN betreffend): Welche Daten müssen wie lange und vor wem gesichert werden. Wie sichd verletzungen dieser Sicherheut zu bewerten, zu welchem Preis dürfen die Sicherheitsziele erreicht werden. 
+  					\item Die Sicherheitsanforderungen an ein VPN leiten sich aus der Security Policy (Sicherheitsrichtlinie) eines Unternehmens ab. 
+  					\item Vom Standpunkt der Sicherheit wäre eine Ende zu Ende Verschlüsselung der Daten auf Applikationsebene die beste Methode. ABER technisch und organisatorisch nicht handhabbar(stand 2007).
+  					\item Verbreitete Lösung: Sicherheit auf Netzwerkebene: OSI Schicht 3
+  					\item Für ein Internet VPN ist Verschlüsselung auf Ebenedes IP-Protokolls das Sicherste und Sinnvollste. Weil bei Verschlüsselung in den Schichten 1 und 2 lägen die Daten an den Vermittlungssystemen im Klartext vor, da sie in der Schicht 3 verarbeitet werden. 
+  					\end{itemize}					
  
 \end{itemize}
