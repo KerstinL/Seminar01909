@@ -4,7 +4,6 @@
   \item Verbindung zweier Teilnetze oder
   \item Verbindung eines Einzelrechners mit einem LAN/Intranet
 \end{itemize}
-\\
 
 \cite{lipp2007vpn}
 \begin{itemize}
@@ -41,7 +40,21 @@
   					\item Die Sicherheitsanforderungen an ein VPN leiten sich aus der Security Policy (Sicherheitsrichtlinie) eines Unternehmens ab. 
   					\item Vom Standpunkt der Sicherheit wäre eine Ende zu Ende Verschlüsselung der Daten auf Applikationsebene die beste Methode. ABER technisch und organisatorisch nicht handhabbar(stand 2007).
   					\item Verbreitete Lösung: Sicherheit auf Netzwerkebene: OSI Schicht 3
-  					\item Für ein Internet VPN ist Verschlüsselung auf Ebenedes IP-Protokolls das Sicherste und Sinnvollste. Weil bei Verschlüsselung in den Schichten 1 und 2 lägen die Daten an den Vermittlungssystemen im Klartext vor, da sie in der Schicht 3 verarbeitet werden. 
+  					\item Für ein Internet VPN ist Verschlüsselung auf Ebene des IP-Protokolls das Sicherste und Sinnvollste. Weil bei Verschlüsselung in den Schichten 1 und 2 lägen die Daten an den Vermittlungssystemen im Klartext vor, da sie in der Schicht 3 verarbeitet werden. 
+  					\item Sicherheit in der Netzwerkschicht mit IP-Securitiy (IPSec). IPSec : Standard für Sicherheit auf IP Ebene, darin sind und dem eng verbundenen IKE-Protokoll (Internet Key exchange) sind verschiedene Verschlüsselungs- und Authentifizierungsverfahren sowie Schlüsselaustausch- und Schlüsselverwaltungsprotokolle festgelegt, die hohe Interoperabilität gewährleisten. 
+  					\item Sicherheit auf der Transportschicht mit SSl und TSL
+  					\item Kapitel 4: IPSec
+  					\item Kapitel 5: IKE
+  					\item Kapitel 6: SSL
   					\end{itemize}					
  
+\end{itemize}
+
+
+Sicherheit im Internet 2 1867 KE3 S 91 -113: 
+
+Motivation:
+\begin{itemize}
+	\item Firmennetze verschiedener Standorte wie ein einziges großes lokales Netz : Intranet / Site to Site. Lediglich auf dem Weg durch das Verbindende Netz werden die Daten verschlüsselt.
+	\item Transparenter Zugriff auf das lokale Netz für Mobile Mitarbeiter: remote Access. Meist über das Internet. End to site. Vor allem bei Zugang über WLAN sollte das mobile Endgerät den Datenverkehr verschlüsseln  
 \end{itemize}
