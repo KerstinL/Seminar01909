@@ -57,4 +57,32 @@ Motivation:
 \begin{itemize}
 	\item Firmennetze verschiedener Standorte wie ein einziges großes lokales Netz : Intranet / Site to Site. Lediglich auf dem Weg durch das Verbindende Netz werden die Daten verschlüsselt.
 	\item Transparenter Zugriff auf das lokale Netz für Mobile Mitarbeiter: remote Access. Meist über das Internet. End to site. Vor allem bei Zugang über WLAN sollte das mobile Endgerät den Datenverkehr verschlüsseln  
+	\item B2B z.B Zugriff für Lieferanten auf internes Netzwerk. Stichwort Extranet $\rightarrow$ Über VPN nur zugriff zu bestimmten Systemteilen
+	\item VPN über Internet oder andere spezielle Netze  (in anderer Litaratur auch WAN)
+	\item VPN Consortium \url{http://www.vpnc.org/} Begriffsdefinitionen: 
+		\begin{itemize}
+		\item trusted VPN: Netzbetreiber übernimmt die Verantwortung dafür, dass die Leitungen, die die lokalen Netze Verbinden  exklusiv für diese zur Verfügung stehen. Basiert in der Regel auf klassischem Telefonnetz.
+		\item secure VPN: Einsatz von Kryptographie-Techniken um Schutzziele zu erreichen. Netzverbindung basiert auf dem Internet. 
+		\item hybrid VPN: Mischform der zuvor genannten.
+		\end{itemize}
+		Anforderungen an VPNs : Vertraulichkeit, Authentizität, Integrität, Verfügbarkeit. 
 \end{itemize}
+
+Technische Grundlagen: 
+\begin{itemize}
+\item Verbindungsnetz auf unterster Ebene des Protokoll-Stack wäre ein eigenes Kabel. Nicht realisierbar.
+\item Grundsätzlich gitlt: VPN auf niedrigerer Ebene des Protokoll-Stack bietet mehr Anwendungsmöglichkeiten.
+\item Tunneling: bezeichnet eine Technik bei der beliebige Datenpakete komplett als Nutzlast (payload) in einem anderen Datenpaket übertragen werden. Vorgang des Verpackens eines Pakets in einem anderen Paket: encapsulation.	
+\end{itemize}
+Layer 2 VPNs
+\begin {itemize}
+\item direkte Verbindung zwischen VPN Endtpunkten. \textit{Für uns nicht Relevant denke ich.}	
+\end {itemize}
+Layer 3 VPN
+\begin{itemize}
+\item IP als übertragungsprotokoll
+\item Standard: IPsec, spezifiziert für IPv4 und IPv6	
+\end{itemize}
+
+
+
