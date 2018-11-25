@@ -13,3 +13,28 @@ Ein zentrales Problem für den Datenschutz (auch) in Unternehmen sind Funktionen
 \glqq{}Das Unternhemen  Backes SRT hat eine App namens \emph{WhatsBox} veröffentlicht,\grqq{} die nun verspricht, WhatsApp in einer Sandbox zu betreiben und dadurch WhatsApp DSVGO-konform nutzbar zu machen. Über die lassen sich Kontakte explizit für WhatsApp freigeben.\\
 
 \url{https://www.backes-srt.com/de/loesungen/whatsbox/}
+
+
+\subsection{Effizientes und verantwortungsvollesDatenmanagement imZeitalter der DSGVO}
+(KL)\\
+
+Quelle: \cite{Brockmann2018}
+Nach DSGVO müssen Unternehmen jederzeit: 
+\begin{itemize}
+\item	darlegen können, welche personenbezogenen Daten in welchenSystemen für welchen Zweck auf welcher rechtlichen Basis vonwem gespeichert und verarbeitet werden,
+\item darlegen können, wer diese Daten wie und wofür verarbeitetund nutzt,
+\item Anfragen binnen eines Monats vollständig, lesbar und eindeutigbeantworten,
+\item Änderungs-, Widerruf- oder Löschungswuünsche seitens derbetroffenen Person auf allen Systemen im Unternehmen umsetzen,
+\item sicherstellen, dass (auch externe) Datenverarbeiter der DSGVOnachkommen und
+\item die Konformität mit den datenschutzrechtlichen Anforderungenprüfen, nachbessern und nachweisen.
+
+\end{itemize}
+
+in Unternehmen herrschen in der Regel heterogene Datenlandschaften vor, die eine DSGVO-konformität erschweren.
+
+Der Artikel versucht dem Problem durch semantische Technologien zu begegnen (Ontologien/Vokabularen). Bsp Google Knowledgegraph.
+Die semantische Technologie kann als Enterprise KnowledgeGraph (EKG) auch auf Unternehmen und Institutionen angewendetwerden.
+Kern der EKG ist das standardisierte, Statement-zentrischeRDF-Datenmodell. Dieses Modell strukturiert Daten nach einerSubjekt-Prädikat-Objekt-Syntax, wodurch Daten jeglicher Artuntereinander referenziert und verlinkt werden können.
+Bei einigen EKG-Ansätzen wird die Transformation aller Unternehmensdatenin RDF empfohlen. Dies hat in der Vergangenheitjedoch zu Problemen bei der Skalierbarkeit geführt, da alleDaten transformiert werden mussten. Als Alternative hat sichdeshalb das rein Metadaten-basierte Management der Quelldatenmittels eines semantischen Datenkatalogs herausgebildet. Hierbeibleiben die Quelldaten in ihren Applikationen unberührt,und nur ihre Metadaten (im RDF-Format) werden in einem zentralenDatenkatalog zusammengeführt und mit der Quelle verlinkt.
+Insbesondere für die Umsetzung der DSGVO ist die Katalogisierung,Beschreibung und Vernetzung von persönlichen Datenaus einer Vielzahl von Quellen eine essentielle Voraussetzung.
+In der Praxis wird in die bestehende Datenlandschaft einesUnternehmens ein semantischer Datenkatalog integriert. In diesemwerden die Metadaten, als das Wissen über die im Unternehmenvorliegenden Daten zusammengeführt und gespeichert.Die Quelldaten in den verteilten Applikationen im Unternehmenwerden dabei nicht berührt.
