@@ -17,7 +17,7 @@
 	
 	%%% Title declaration begin %%%
 	
-	\title{Ausarbeitung zu \\ 01909 - Seminar IT-Sicherheit \\ Maßnahmen zur Absicherung von privaten und kleinen Unternehmensnetzwerken}
+	\title{Ausarbeitung zum \\ 01909 - Seminar IT-Sicherheit \\ Maßnahmen zur Absicherung von privaten und kleinen Unternehmensnetzwerken}
 	\author{B.Sc. Markus Alpers, 6872530 \\ Dipl. -Met. Kerstin Lapp, 5105200}
 	\date{\today}
 	
@@ -28,6 +28,10 @@
 	\tableofcontents
 	
 	%%% Chapters %%%
+	
+	\include{Einleitung}
+	
+	\include{SicheresNetzwerk}
 
 
 	
@@ -36,7 +40,7 @@
 	\renewcommand{\indexname}{Stichwortverzeichnis}		% Legt den Titel des Stichwortverzeichnisses fest.
 	\addcontentsline{toc}{chapter}{Stichwortverzeichnis}
 	\printindex
-	\nocite{*}
+	\nocite{*} % dient der Übersicht, sollte vor Abgabe entfernt werden
 	\bibliography{../lit.bib}
 
 \end{document}
