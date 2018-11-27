@@ -1,0 +1,21 @@
+Vorschlag zur Gliederung der Seminararbeit
+
+Maßnahmen zur Absicherung von privaten und kleinen Unternehmensnetzwerken
+
+0.Einleitung
+1.Aufbau eines sicheren Netzwerks
+- Netzwerkarchitektur 
+	- DMZ, Firewallanordnung, Server, Clients, VLAN
+- VPN (Fernzugriff und Verbinden von Standorten)
+
+2.Rechtliche und Organisatorische Aspekte
+- Sicherheitsleitlinie, Verantwortlichkeiten
+- Datenschutz und Jugendschutz
+
+3. Aktuelle Entwicklungen
+4. Fazit
+
+
+
+
+

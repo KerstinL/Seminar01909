@@ -17,8 +17,8 @@
 	
 	%%% Title declaration begin %%%
 	
-	\title{Notizen zu \\ 01909 - Seminar IT-Sicherheit \\ Maßnahmen zur Absicherung von privaten und kleinen Unternehmensnetzwerken}
-	\author{B.Sc. Markus Alpers, 6872530 \\ Kerstin Lapp, 515200}
+	\title{Ausarbeitung zum \\ 01909 - Seminar IT-Sicherheit \\ Maßnahmen zur Absicherung von privaten und kleinen Unternehmensnetzwerken}
+	\author{B.Sc. Markus Alpers, 6872530 \\ Dipl. -Met. Kerstin Lapp, 5105200}
 	\date{\today}
 	
 	\maketitle
@@ -29,35 +29,18 @@
 	
 	%%% Chapters %%%
 	
-	\chapter{Begriffe}
+	\include{Einleitung}
+	
+	\include{SicheresNetzwerk}
 
-	\include{Schutzziele}
-	\include{VLAN}
-	\include{VPN}
-	\include{DMZ}
-	\include{Sicherheitsleitlinie}
-	\include{Datenschutz}
-	\include{Mitarbeiter}
 
-	\chapter{Einzelne Publikationen}
-	
-	\include{PaperBoundedPrivacy}
-	\include{UsabilitySecurityAPIs}
-	\include{FallstrickeInhaltsanalyseMails}
-	\include{ix0918Einseitig}
-	\include{BSI_OnlineKursItGrundschutz}
-	
-	\chapter{Relevante Institutionen und Gruppen}
-	
-	\include{InstitutionenUndGruppen}
-	\include{AllianzFuerCybersicherheit}
 	
 	%%% Appendices %%%
 	
 	\renewcommand{\indexname}{Stichwortverzeichnis}		% Legt den Titel des Stichwortverzeichnisses fest.
 	\addcontentsline{toc}{chapter}{Stichwortverzeichnis}
 	\printindex
-	\nocite{*}
-	\bibliography{lit}
+	\nocite{*} % dient der Übersicht, sollte vor Abgabe entfernt werden
+	\bibliography{../lit.bib}
 
 \end{document}
